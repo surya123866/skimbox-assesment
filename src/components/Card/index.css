@@ -1,0 +1,114 @@
+.all-cards-continer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 340.734px;
+  min-height: 74.112px;
+  flex-shrink: 0;
+  border-radius: 3.615px;
+  border: 0.904px solid #c8c8c8;
+  background: #fff;
+  justify-content: space-around;
+  margin: 10px;
+}
+.text,
+.pair,
+.product {
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 15px;
+}
+.product {
+  font-size: 14px;
+}
+.most-popular-text {
+  color: #cd264f;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.active-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 340.734px;
+  height: 161.781px;
+  border-radius: 3.615px;
+  border: 0.904px solid #f88ca7;
+  background: #fff4f7;
+}
+.card-product-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 340.734px;
+  height: 74.112px;
+  flex-shrink: 0;
+}
+.active-card-details-container {
+  display: flex;
+  flex-direction: row;
+}
+.active-product-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 340.734px;
+  height: 74.112px;
+  justify-content: space-around;
+}
+.option-constiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.size-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 65.978px;
+  height: 25.306px;
+  border-radius: 1.808px;
+  border: 0.904px solid #d9d9d9;
+  background-color: #fff;
+}
+.serial-num-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+.serial-num {
+  color: #000;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.size-text {
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
